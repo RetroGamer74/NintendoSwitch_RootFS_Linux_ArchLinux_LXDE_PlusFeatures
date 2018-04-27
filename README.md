@@ -2,7 +2,7 @@
 
 This GitHub provides a RootFS which includes Arch Linux + LXDE, with Bluetooth support, so you can connect a keyboard and mouse. You can also connect your mobile phone or whatever. It supports WiFi, but this could be tricky. If you don't see wifi icon on LXDE after boot, try to setup your WiFi network and reboot again. Once rebooted you will see a black screen. It means you're in TegraRCM mode again. So inject again the exploit and payload to star linux again.
 
-It includes also Chromium, Firefox, NFS support, SMB support, KODI but unfortunately still not working because of a crash I have to debug.Filezilla, and many others installed and compiled by myself.
+It includes also Chromium, Firefox, NFS support, SMB support, KODI but unfortunately still not working because of a crash I have to debug. Filezilla, and many others installed and compiled by myself. It also includes OnBoard keyboard, with touch screen capabilities already set it up. Start OnBoard when you want by entering in the Accesibility menu. Once launched, a new icon will appear in the desktop.
 
 In order to do a complete installation in the easiest way I recommend follow next steps:
 
