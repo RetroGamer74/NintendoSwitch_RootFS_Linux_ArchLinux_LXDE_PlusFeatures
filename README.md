@@ -12,12 +12,13 @@ Following the installation instructions from the docker created by Nold360, whic
 Cloning
 =======
 
+```
 git clone https://github.com/Nold360/switch_linux_kit
 
 cd switch_linux_kit
 
 git submodule update --init
-
+```
 
 Compiling
 =========
