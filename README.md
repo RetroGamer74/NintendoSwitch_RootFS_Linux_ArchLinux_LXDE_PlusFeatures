@@ -1,6 +1,6 @@
 # Nintendo Switch RootFS Linux Arch Linux +LXDE + Features
 
-This GitHub provides a RootFS which includes Arch Linux + LXDE, with Bluetooth support, so you can connect a keyboard and mouse. You can also connect your mobile phone or whatever. It supports WiFi, but this could be tricky. If you don't see wifi icon on LXDE after boot, try to setup your WiFi network and reboot again. Once rebooted you will see a black screen. It means you're in TegraRCM mode again. So inject again the exploit and payload to star linux again.
+This GitHub provides a RootFS https://drive.google.com/uc?export=download&confirm=no_antivirus&id=141TYSOAM9ZXrAnHTXaj47PjbiNP3zsgu which includes Arch Linux + LXDE, with Bluetooth support, so you can connect a keyboard and mouse. You can also connect your mobile phone or whatever. It supports WiFi, but this could be tricky. If you don't see wifi icon on LXDE after boot, try to setup your WiFi network and reboot again. Once rebooted you will see a black screen. It means you're in TegraRCM mode again. So inject again the exploit and payload to star linux again.
 
 It includes also Chromium, Firefox, NFS support, SMB support, KODI but unfortunately still not working because of a crash I have to debug. Filezilla, and many others installed and compiled by myself. It also includes OnBoard keyboard, with touch screen capabilities already set it up. Start OnBoard when you want by entering in the Accesibility menu. Once launched, a new icon will appear in the desktop.
 
@@ -123,7 +123,7 @@ sudo mount /dev/sdd2 /mnt/sdcard
 
 We're ready to write in the folder /mnt/sdcard which is linked to our second partition of the microSD card.
 
-Download now from this repository the file rootfs_package.tar.bz2
+Download now from this link https://drive.google.com/uc?export=download&confirm=no_antivirus&id=141TYSOAM9ZXrAnHTXaj47PjbiNP3zsgu the file rootfs_package.tar.bz2
 
 And extract it into the sdcard. You can do this by downloading this file in to your home folder.
 
