@@ -34,7 +34,7 @@ Finally run docker command to start the procedure. If docker command is not foun
 
 For example: sudo apt install docker
 ```
-docker run -ti --rm -v$(pwd):/source nold360/switch_linux_toolchain bash 00_build.sh
+sudo docker run -ti --rm -v$(pwd):/source nold360/switch_linux_toolchain bash 00_build.sh
 ```
 microSD RootFS
 ==============
