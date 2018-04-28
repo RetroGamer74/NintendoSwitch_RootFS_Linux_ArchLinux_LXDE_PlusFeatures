@@ -4,6 +4,8 @@ This GitHub provides a RootFS https://drive.google.com/uc?export=download&confir
 
 It includes also Chromium, Firefox, NFS support, SMB support, KODI but unfortunately still not working because of a crash I have to debug. Filezilla, and many others installed and compiled by myself. It also includes OnBoard keyboard, with touch screen capabilities already set it up. Start OnBoard when you want by entering in the Accesibility menu. Once launched, a new icon will appear in the desktop.
 
+Probably first boot WiFi network doesn't work. That's completely normal according to the current status of this development. For the firs time, setup your network, and then reboot again. Usually first boot doesn't startup WiFi service because of a crash. I use bluetooth with iMac keyboard and Apple IntelliMouse with Bluetooth support. I use everything at the same time even with WiFi. And everything works well.
+
 In order to do a complete installation in the easiest way I recommend follow next steps:
 
 Following the installation instructions from the docker created by Nold360, which is the one who has created this automated procedure https://github.com/Nold360/switch_linux_kit do the next:
