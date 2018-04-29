@@ -155,8 +155,9 @@ This umount command can take sometime to finish because it has to flush to the S
 Once finished, you can extract the microSD card from your computer and adapter, and insert it into your Nintendo Switch socket.
 
 Then using the Fusee Gelee method to shortcut pin 10-9 in the right joycon, and entering into TegraRCM, run the next commands:
-
+Remember to get into switch_linux_kit folder first using:
 ```
+cd switch_linux_kit
 sudo bash -x 02_exploit.sh
 sudo bash -x 03_uboot.sh
 ```
