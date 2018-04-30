@@ -141,22 +141,7 @@ unzip linux_arch_lxde.bin.zip
 sudo dd if=linux_arch_lxde.bin of=/dev/sdd2
 ```
 
-Now extract the file guessing it was downloaded in your home folder:
-
-```
-sudo tar -xvf /home/retrogamer/rootfs_package.tar.bz2
-```
-
-This will take sometime depending on the speed of the microSD
-
-Once finished run next commands:
-
-```
-cd
-sudo umount /dev/sdd2
-```
-
-This umount command can take sometime to finish because it has to flush to the SDCard any pending data still not written to the microSD.
+This will take long depending on the speed of the microSD
 
 Once finished, you can extract the microSD card from your computer and adapter, and insert it into your Nintendo Switch socket.
 
