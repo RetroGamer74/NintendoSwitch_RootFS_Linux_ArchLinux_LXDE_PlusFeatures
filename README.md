@@ -9,9 +9,12 @@ Probably first boot WiFi network doesn't work. That's completely normal accordin
 Requirements
 ============
 
-Nintendo Switch ( It doesn't matter firmware release )
-Something to short cut pin 9-10 of right joy con to inject exploit FG (Fusee Gelee)
-microSD card with 64 GB. ( This is because from this tuto we're going to dump the NAND also )
+1.-Nintendo Switch ( It doesn't matter firmware release )
+
+2.-Something to short cut pin 9-10 of right joy con to inject exploit FG (Fusee Gelee)
+
+3.-microSD card with 64 GB. ( This is because from this tuto we're going to dump the NAND also )
+
 
 In order to do a complete installation in the easiest way I recommend follow next steps:
 
