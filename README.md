@@ -1,3 +1,6 @@
+#THIS INFO IS UNDER MAINTENANCE FIXING SEVERAL ISSUES. DON'T USE IT BY THE WAY.
+
+
 # Nintendo Switch RootFS Linux Arch Linux +LXDE + Features
 
 This GitHub provides a RootFS https://drive.google.com/uc?export=download&confirm=no_antivirus&id=141TYSOAM9ZXrAnHTXaj47PjbiNP3zsgu which includes Arch Linux + LXDE, with Bluetooth support, so you can connect a keyboard and mouse. You can also connect your mobile phone or whatever. It supports WiFi, but this could be tricky. If you don't see wifi icon on LXDE after boot, try to setup your WiFi network and reboot again. Once rebooted you will see a black screen. It means you're in TegraRCM mode again. So inject again the exploit and payload to star linux again.
