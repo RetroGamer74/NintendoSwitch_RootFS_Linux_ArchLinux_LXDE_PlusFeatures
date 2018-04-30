@@ -73,7 +73,7 @@ Example:
 [39401.488487] sd 6:0:0:0: [sdd] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
 ```
 
-Because I used an USB adapter my device was identified by sdd. You have to identify yours.
+Because I used an USB adapter my device was identified by sdd. You have to identify yours. If you connect with an SD adapter usually it should be something like mmcblk0p2.
 
 Run next commands as root to prepare microSD:
 ```
@@ -128,28 +128,17 @@ sudo mkfs.ext4 /dev/sdd2
 
 If everything goes well you will see several messages about the construction of SUPERBLOCK and other things.
 
-Now let's create a mount folder to get access to this new partition to write on it.
+Once filesystem has been created let's go to download the image to extract it in the second partition.
+card.
 
+Download now from this link https://drive.google.com/uc?export=download&confirm=no_antivirus&id=141TYSOAM9ZXrAnHTXaj47PjbiNP3zsgu the file linux_arch_lxde.bin.zip
+
+And extract it into your home folder first  ( in my case my home folder is retrogamer ).
+After that extract image file into the microSD partition. ( The partition name could be something like mmcblk0p2 or in my case using an USB adapter it is ssd2 )
 ```
-sudo mkdir /mnt/sdcard
-```
-
-Now mount the new partition.
-
-```
-sudo mount /dev/sdd2 /mnt/sdcard
-```
-
-We're ready to write in the folder /mnt/sdcard which is linked to our second partition of the microSD card.
-
-Download now from this link https://drive.google.com/uc?export=download&confirm=no_antivirus&id=141TYSOAM9ZXrAnHTXaj47PjbiNP3zsgu the file rootfs_package.tar.bz2
-
-And extract it into the sdcard. You can do this by downloading this file in to your home folder.
-
-Then enter into the /mnt/sdcard:
-
-```
-cd /mnt/sdcard
+cd /home/retrogamer
+unzip linux_arch_lxde.bin.zip
+sudo dd if=linux_arch_lxde.bin of=/dev/sdd2
 ```
 
 Now extract the file guessing it was downloaded in your home folder:
