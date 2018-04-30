@@ -107,7 +107,7 @@ Press enter for partition size to use maximum size available in your microSD car
 
 Once finished, you can use command 'p' again to show the partition list.
 
-You should see two partitions. First one about 100 megabytes, second one the rest of gigabytes available in your microSD card.
+You should see two partitions. First one about 1000 megabytes, second one the rest of gigabytes available in your microSD card.
 
 ```
 Disposit.  Inicio   Start     Final  Sectores  Size Id Tipo
