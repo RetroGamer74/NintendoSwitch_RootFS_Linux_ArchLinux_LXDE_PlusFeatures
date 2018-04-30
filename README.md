@@ -6,6 +6,13 @@ It includes also Chromium, Firefox, NFS support, SMB support, KODI but unfortuna
 
 Probably first boot WiFi network doesn't work. That's completely normal according to the current status of this development. For the firs time, setup your network, and then reboot again. Usually first boot doesn't startup WiFi service because of a crash. I use bluetooth with iMac keyboard and Apple IntelliMouse with Bluetooth support. I use everything at the same time even with WiFi. And everything works well.
 
+Requirements
+============
+
+Nintendo Switch ( It doesn't matter firmware release )
+Something to short cut pin 9-10 of right joy con to inject exploit FG (Fusee Gelee)
+microSD card with 64 GB. ( This is because from this tuto we're going to dump the NAND also )
+
 In order to do a complete installation in the easiest way I recommend follow next steps:
 
 Following the installation instructions from the docker created by Nold360, which is the one who has created this automated procedure https://github.com/Nold360/switch_linux_kit do the next:
@@ -81,7 +88,7 @@ Repeat the procedure for removing a partition until no partitions left.
 Now press 'n' to create a new partition.
 Select 'p' for Primary partition.
 Select a partition number, select 1.
-Now select the size of the partition typing: +100M
+Now select the size of the partition typing: +1000M
 ```
 
 This first partition will be dummy and won't be used.
@@ -100,6 +107,10 @@ Once finished, you can use command 'p' again to show the partition list.
 You should see two partitions. First one about 100 megabytes, second one the rest of gigabytes available in your microSD card.
 
 ```
+Disposit.  Inicio   Start     Final  Sectores  Size Id Tipo
+/dev/sdd1            2048   2050047   2048000 1000M 83 Linux
+/dev/sdd2         2050048 124735487 122685440 58,5G 83 Linux
+
 Then, finally, press 'w' to sync changes and exit.
 ```
 
